@@ -1,0 +1,9 @@
+<template>
+    <p class="error">{error}</p>
+    <form>
+        <label>{data.id} : </label>
+        <input id="title" type="text" value={data.title} />
+        <input id="author" type="text" value={data.author} />
+        <button onclick={editBook}>edit</button>
+    </form>
+</template>

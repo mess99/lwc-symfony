@@ -1,0 +1,17 @@
+.delete,
+.edit {
+    cursor: pointer;
+}
+h1 {
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.booksHover:hover {
+    background-color: yellow;
+}

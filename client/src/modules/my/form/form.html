@@ -1,0 +1,10 @@
+<template>
+    <p class="error">{error}</p>
+    <form method="post">
+        <label for="title">Title : </label>
+        <input style="margin-right: 10px" id="title" type="text" required />
+        <label for="author">author : </label>
+        <input style="margin-right: 10px" id="author" type="text" />
+        <button onclick={addBook}>Add</button>
+    </form>
+</template>
